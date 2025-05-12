@@ -13,8 +13,25 @@ ul {
 }
 
 body {
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
+}
+
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #3382F6;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f9faf8;
+  border-color: transparent;
+  width: 120px;
+  height: 40px;
+  margin: 10px 0px;
 }
 
 .header {
@@ -38,9 +55,21 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  height: 60vh;
+}
+
+
+.subtext {
+  display: flex;
+  font-weight: 400;
+  flex-wrap: wrap;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero-text {
+  margin-top: 48px;
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
@@ -59,4 +88,47 @@ body {
   background-color: grey;
   margin: 30px;
   flex-wrap: wrap;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:0px 250px;
+
+}
+
+.sub-text{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-text > p {
+  text-align: center;
+}
+
+.sub-text > div,
+.sub-text > p {
+  width: 150px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin:10px;
+  border: 20cm;
+  border: #3382F6 solid;
+  border-radius: 10px;
 }
